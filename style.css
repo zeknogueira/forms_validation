@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+ }
+ h1{
+    text-align: center;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 50vw;
+    margin: 30px auto;
+ }
+ label{
+    font-weight: bold;
+    margin-bottom: 5px ;
+    display: inline-block;
+    
+ }
+ input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  
+ }
+ .linha{
+     width: 20vw;
+ }
+ button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e2d5d5;
+    color: #1a1919;
+    font-size: 1.1rem;
+    cursor: pointer;
+ }
+ 
