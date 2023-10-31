@@ -17,7 +17,7 @@
     font-weight: bold;
     margin-bottom: 5px ;
     display: inline-block;
-    
+ 
  }
  input, select {
     width: 100%;
@@ -25,7 +25,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1.1rem;
-  
+ 
  }
  .linha{
      width: 20vw;
@@ -39,4 +39,11 @@
     font-size: 1.1rem;
     cursor: pointer;
  }
- 
+ #test{
+     width:150px;
+     height:150px;
+     /*just this*/ background-image: url(https://images.freeimages.com/images/large-previews/48d/marguerite-1372118.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 150px 150px;
+ }
